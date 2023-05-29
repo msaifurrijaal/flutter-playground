@@ -8,6 +8,7 @@ import 'package:belajar_widget/latihan_extract_widget.dart';
 import 'package:belajar_widget/latihan_fitur_text_field.dart';
 import 'package:belajar_widget/latihan_grid_view.dart';
 import 'package:belajar_widget/latihan_mapping.dart';
+import 'package:belajar_widget/latihan_model.dart';
 import 'package:belajar_widget/latihan_statefull.dart';
 import 'package:belajar_widget/latihan_switch.dart';
 import 'package:belajar_widget/latihan_tabbar.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Latihan Widget',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: SwitchApp(),
+      home: ExtractWidgetApp(),
     );
   }
 }
