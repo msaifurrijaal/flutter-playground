@@ -12,8 +12,8 @@ class ImageWidgetApp extends StatelessWidget {
           width: 300,
           height: 500,
           color: Colors.amber,
-          child: Image(fit: BoxFit.cover, image: AssetImage("images/gambar.jpg")
-              // image: NetworkImage("https://picsum.photos/200/300"),
+          child: Image(fit: BoxFit.cover, 
+              image: NetworkImage("https://picsum.photos/200/300"),
               ),
         ),
       ),
