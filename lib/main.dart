@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Latihan Widget',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: ExtractWidgetApp(),
+      home: DrawerApp(),
     );
   }
 }
