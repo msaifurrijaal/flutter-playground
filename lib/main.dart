@@ -13,9 +13,10 @@ import 'package:belajar_widget/latihan_statefull.dart';
 import 'package:belajar_widget/latihan_switch.dart';
 import 'package:belajar_widget/latihan_tabbar.dart';
 import 'package:flutter/material.dart';
+import 'latihan_theme.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MyApp2());
 }
 
 class MyApp extends StatelessWidget {
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Latihan Widget',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: DrawerApp(),
+      home: SwitchApp(),
     );
   }
 }
