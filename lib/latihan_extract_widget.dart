@@ -41,3 +41,13 @@ class ChatItem extends StatelessWidget {
     );
   }
 }
+
+class ChatApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return Scaffold(
+        appBar: AppBar(title: Text("Chat App")),
+        body: Center(child: Text("Text App")));
+  }
+}
